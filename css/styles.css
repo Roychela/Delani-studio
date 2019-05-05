@@ -54,3 +54,11 @@ font-family: 'PT Sans Narrow', sans-serif;
 .managementdescription {
   display: none;
 }
+.portfolio {
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  background-repeat: no-repeat;
+  font-family: 'PT Sans Narrow', sans-serif;
+}
