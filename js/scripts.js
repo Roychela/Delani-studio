@@ -13,6 +13,14 @@ $(document).ready(function() {
   });
   $(".developmentdescription").click(function(){
     $("img#development").show();
-    $(".developmentdescription").hide();  
+    $(".developmentdescription").hide();
+  });
+  $("img#management").click(function() {
+    $("img#management").hide();
+    $(".managementdescription").show();
+  });
+  $(".managementdescription").click(function(){
+    $("img#management").show();
+    $(".managementdescription").hide();
   });
 });
