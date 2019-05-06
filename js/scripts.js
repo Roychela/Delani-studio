@@ -24,7 +24,10 @@ $(document).ready(function() {
     $(".managementdescription").hide();
   });
   $("#submitbutton").click(function(){
-    var messageHere = (document.getElementById("name").value);
-    alert(messageHere + " we have received your message. Thank you for reaching out to us.");
+    var messageHere = (document.getElementById("messagehere").value);
+    var name = (document.getElementById("name").value);
+    if(messageHere != "") {
+    alert(name + " we have received your message. Thank you for reaching out to us.");
+    }
   });
 });
