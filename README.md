@@ -20,4 +20,5 @@ This application was created using HTML, CSS, javascript, bootstrap and jquery.
 If you run into any issues or have questions, ideas or concerns contact roychela@gmail.com
 ### License
 *MIT*
+https://github.com/Roychela/Delani-studio/blob/master/LICENSE
 Copyright (c) 2019 **Roy Chela**
