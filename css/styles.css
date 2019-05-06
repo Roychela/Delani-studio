@@ -84,3 +84,7 @@ font-family: 'PT Sans Narrow', sans-serif;
   width: 800px;
   height: 240px;
 }
+.socialicons {
+  text-align: center;
+  padding-top: 50px;
+}
