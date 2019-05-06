@@ -28,6 +28,8 @@ $(document).ready(function() {
     var name = (document.getElementById("name").value);
     if(messageHere != "") {
     alert(name + " we have received your message. Thank you for reaching out to us.");
-    }
+  } else {
+    alert("Please fill out form before submitting");
+  }
   });
 });
