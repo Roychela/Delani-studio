@@ -23,4 +23,8 @@ $(document).ready(function() {
     $("img#management").show();
     $(".managementdescription").hide();
   });
+  $("#submitbutton").click(function(){
+    var messageHere = (document.getElementById("name").value);
+    alert(messageHere + " we have received your message. Thank you for reaching out to us.");
+  });
 });
